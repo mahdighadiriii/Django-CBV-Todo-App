@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts.apps.AccountsConfig',
     'todo.apps.TodoConfig',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
