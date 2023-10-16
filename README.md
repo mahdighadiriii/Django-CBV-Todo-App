@@ -13,7 +13,6 @@
 
 ### Overview
 - [Overview](#overview)
-- [Demo](#demo)
 - [Features](#features)
 - [Setup](#setup)
 - [Getting ready](#getting-ready)
@@ -84,7 +83,7 @@ Once the server is up and running, head over to http://127.0.0.1:8000 for the Ap
 If you want your code to be check by pep8 and all the guide lines, there are two packages added to requirements in order to check and reformat code.
 you can use it by this command:
 ```bash
-black -l 79 . && flake8
+docker-compose exec backendd sh -c "black -l 79 . && flake8"
 ```
 ### Database schema
 A simple view of the project model schema.
